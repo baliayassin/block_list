@@ -1,0 +1,161 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Get Started | API Documentation | Coming Soon Movies</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/style.css" />
+	</head>
+	<body>
+
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image books"><img src="assets/logo.png" alt="" /></span>
+							<h1 id="title">Amazon Books</h1>    
+							<p>API Documentation</p>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+							<!--	<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Get Start</span></a></li>-->
+								<li><a href="#intro" id="intro-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Introduction</span></a></li>
+								<li><a href="#func1" id="func1-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Get All Block List</span></a></li>
+								<li><a href="#func2" id="func2-link" class="skel-layers-ignoreHref"><span class="icon fa-user">Get User Profile Data By Name</span></a></li>
+								<li><a href="#func3" id="func3-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Get User Books By  </span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+				<div class="bottom">
+
+					<!-- Social Icons -->
+						<ul class="icons">
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
+							<li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt"><strong>Get Started | API Documentation | block list</strong></h2>
+								<p class="left">The amazon books API allows apps to interact directly with the block list of books .<br> <strong>Some typical use cases include:</strong> Get all books, Get user profile data by id, Get user books by date.<br>
+								</p>
+							</header>
+
+							<footer>
+								<a href="#intro" class="button scrolly">GET START!</a> 
+								<a href="" target="_blank" class="button">View on Github</a> 
+								<a href="https://github.com/Gal-Education/Express-HW1/archive/master.zip" class="button">Download</a>
+							</footer>
+
+						</div>
+					</section>
+
+				<!-- Intro -->
+					<section id="intro" class="four">
+						<div class="container">
+
+							<header>
+								<h2 class="alt"><strong>Introduction</strong></h2>
+								<p class="left">The Amazon Books API created to give details about block list of books.<br>
+								All the requests should be in GET / POST / PUT Method .<br>
+								The result will return in JSON File.<br>
+								If your URL request is wrong you will forward to 200 Error page.
+								</p>
+							</header>
+						</div>
+					</section>
+
+				<!-- func1 -->
+					<section id="func1" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Get All Books</h2>
+							</header>
+
+							<p class="left">You can find all the books in amazon, by entering the following URL:</p>
+							<blockquote>https://block-lists.herokuapp.com/getAll <span>Method: GET</span></blockquote><br>
+							<p class="left">Example of result in JSON File:</p>
+							<img src="assets/json1.png" style="float: left; height: 350px; width: auto">
+							
+
+						</div>
+					</section>
+
+				<!-- func2 -->
+					<section id="func2" class="three">
+						<div class="container">
+
+							<header>
+								<h2>Get User Profile Data By Id</h2>
+							</header>
+
+							<p class="left">You can find user profile data by ID, by sending parameter to the following URL:<br>
+							<u>Parameter name:</u> <strong>ProfileUserId</strong></p>
+							<blockquote>https://block-lists.herokuapp.com/getblockbyName<span>Method: POST</span></blockquote><br>
+							<p class="left">Example of result in JSON File:</p>
+							<img src="assets/json2.png" style="float: left; height: 350px; width: auto">
+
+						</div>
+					</section>
+
+				<!-- func3 -->
+					<section id="func3" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Get User Books By Date  </h2>
+							</header>
+
+							<p class="left">You can find books with date filter, by entering the following URL:</p>
+							<blockquote>https://block-lists.herokuapp.com/search/[name]/[why] <span>Method: GET</span></blockquote><br>
+							<p class="left">Example of result in JSON File:</p>
+							<img src="assets/json3.png" style="float: left; height: 350px; width: auto">
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Amazon Books API</li><li>All rights reserved - balia yassin.</li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
